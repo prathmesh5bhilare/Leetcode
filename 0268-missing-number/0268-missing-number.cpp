@@ -5,8 +5,7 @@ public:
         int n=nums.size();
         for(int i=0;i<nums.size();i++){
             sum=sum+nums[i];
-            int actualSum = n*(n+1)/2;
-            int missingNum=actualSum-sum;
+           
         }
         int actualSum = n*(n+1)/2;
         int missingNum=actualSum-sum;    
